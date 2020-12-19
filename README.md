@@ -31,4 +31,5 @@ Pick what raid you want following what boss in that raid you want. Use the funct
 </br>
 </br>
 ## 3) How it works
-![grab-landing-page](https://github.com/famfruit/raidplan-tbc/blob/master/2020-12-19-22-39-20.gif)
+</br>
+![grab](https://github.com/famfruit/raidplan-tbc/blob/master/2020-12-19-22-39-20.gif)
