@@ -19,10 +19,8 @@ Extract the "raidplan-tbc-master" folder to your desktop and open up Google Chro
 **Installation complete!**
 
 </br>
-</br>
-</br>
 
-## 1) Installation
+## 2) Usage
 
 Navigate to https://raidplan.io/plan/create and press the "(+) / Healing Icon" in the top right corner of your Google Chrome.
 Pick what raid you want following what boss in that raid you want. Use the functions raidplan.io supplied you with and once you're satisfied, press the "(+) / Healing Icon" again, and hit "Save Image" - An image of the screen will be downloaded for you to share with your fellow raiders.
