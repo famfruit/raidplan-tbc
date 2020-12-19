@@ -27,3 +27,8 @@ Pick what raid you want following what boss in that raid you want. Use the funct
 
 </br>
 <img src="https://i.imgur.com/kUG7nNc.jpg" width="21%" ></br>
+
+</br>
+</br>
+## 3) How it works
+<img src="https://i.imgur.com/KFwNDSd.gifv" width="49%" align="right">
