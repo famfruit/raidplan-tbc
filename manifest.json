@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "FmssRaidPlan.io (TBC)",
+  "description": "Adds additional functions to Raidplan.io",
+  "version": "1.0",
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_title": "FmssRaidPlan"
+  },
+  "icons": {
+    "16": "healer.png",
+    "48": "healer.png",
+    "128": "healer.png"
+  },
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  },
+
+  "content_scripts": [{
+    "matches": ["https://raidplan.io/*"],
+    "js": ["content.js", "jquery-3.1.0.min.js"],
+    "css": ["res/styles.css"]
+  }],
+
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ]
+}

@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;500;700;900&display=swap");
+body {
+  padding: 0 7px 50px 7px;
+  border-radius: 5px;
+  background: #242424;
+  width: 250px;
+  height: auto;
+}
+body h1, body span {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body span.title {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.95);
+  font-family: "Mulish", sans-serif !important;
+}
+body span.boss.hidden {
+  display: none;
+}
+body span.lable {
+  text-align: left;
+  color: #52cbff;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 11px;
+  margin-top: 20px;
+}
+body h1 {
+  color: #0da5e7;
+  font-family: "Mulish", sans-serif !important;
+  text-shadow: 0px 0px 5px rgba(13, 165, 231, 0.1);
+}
+body select.hidden {
+  display: none;
+}
+body select {
+  border-radius: 3px;
+  width: 100%;
+  padding: 5px;
+  background: #2d2d2d;
+  color: rgba(255, 255, 255, 0.85);
+}
+body select option {
+  font-weight: 600;
+}
+body .hidden {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  text-transform: lowercase;
+}
+body button {
+  margin: 0 auto;
+  position: absolute;
+  cursor: pointer;
+  width: calc(100% - 30px);
+  padding: 5px 40px;
+  font-family: "Mulish", sans-serif;
+  color: #52cbff;
+  font-weight: 600;
+  font-size: 1.3em;
+  border: 0;
+  box-sizing: border-box;
+  outline: 0;
+  border-radius: 2px;
+  bottom: 10px;
+  left: 15px;
+  transition: all 0.2s ease;
+  background: #242424;
+  border: 2px solid #0da5e7;
+}
+body button:hover {
+  border: 2px solid transparent;
+  background: #0da5e7;
+  color: #fff;
+  box-shadow: 0px 0px 20px -5px #0da5e7;
+}
+
+/*# sourceMappingURL=ui.css.map */

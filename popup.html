@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fmss Raidplan.io for TBC</title>
+        <script src="jquery-3.1.0.min.js"></script>
+        <script src="popup.js"></script>
+        <script src="jscolor.min.js"></script>
+        <link rel="stylesheet" href="res/ui.css">
+  </head>
+  <body>
+        <h1>Raidplan.io TBC</h1>
+        <span class="title">By Fmss</span>
+        <div class="hidden"></div>
+        <span class="lable">RAID</span>
+        <select name="raidType" id="raid">
+          <option value="null" selected>Please pick a raid</option>
+          <option value="null"></option>
+          <option value="gruul">Gruul's Lair</option>
+          <option value="maggy">Magtheridons Lair</option>
+          <option value="ssc">Serpentshrine Caverns</option>
+          <option value="tk">The Eye</option>
+          <option value="mh">Mount Hyjal</option>
+          <option value="bt">Black Temple</option>
+        </select>
+
+
+        <span class="lable boss hidden">BOSS</span>
+
+
+        <select class="gruul hidden bosspick" id="">
+          <option value="null" selected>Please pick a boss</option>
+          <option value="null"></option>
+          <option value="https://i.imgur.com/5rfcb0D.jpg">High King Maulgar</option>
+          <option value="https://i.imgur.com/OrGseT3.jpg">Gruul the Dragonkiller</option>
+        </select>
+
+        <select class="maggy hidden bosspick" id="">
+          <option value="null" selected>Please pick a boss</option>
+          <option value="null"></option>
+          <option value="https://i.imgur.com/EWARGPf.jpg">Magtheridon</option>
+        </select>
+
+        <select class="ssc hidden bosspick" name="">
+          <option value="null" selected>Please pick a boss</option>
+          <option value="null"></option>
+          <option value="https://i.imgur.com/CU7klM5.jpg">Hydross the Unstable (Above)</option>
+          <option value="https://i.imgur.com/FgODEN9.jpg">Hydross the Unstable (Tilted)</option>
+          <option value="null"></option>
+          <option value="https://i.imgur.com/YoteDEh.jpg">The Lurker Below (Above)</option>
+          <option value="null"></option>
+          <option value="https://i.imgur.com/j5ac8E4.jpg">Leotheras the blind (Straight Above)</option>
+          <option value="https://i.imgur.com/E0dByJh.jpg">Leotheras the Blind (Above Corner)</option>
+          <option value="https://i.imgur.com/S1kguBB.jpg">Leotheras the Blind (Perspective)</option>
+          <option value="null"></option>
+          <option value="https://i.imgur.com/e0VHsVl.jpg">Fathom-Lord Karathress (Sideways)</option>
+          <option value="https://i.imgur.com/7AVfxwu.jpg">Fathom-Lord Karathress (Above)</option>
+          <option value="null"></option>
+          <option value="https://i.imgur.com/aVPU228.jpg">Morogrim Tidewalker (Perspective)</option>
+          <option value="https://i.imgur.com/UjNCyMP.jpg">Morogrim Tidewalker (Above)</option>
+          <option value="null"></option>
+          <option value="https://i.imgur.com/BzGt7Z4.jpg">Lady Vashj (Perspective)</option>
+          <option value="https://i.imgur.com/T1Ktp82.jpg">Lady Vashj (Above)</option>
+        </select>
+
+
+
+
+        <select class="tk hidden bosspick" id="">
+          <option value="null" selected>Please pick a boss</option>
+          <option value="null"></option>
+          <option value="https://i.imgur.com/XB8MrR2.jpg">Void Reaver (Perspective)</option>
+          <option value="https://i.imgur.com/Qpxwit2.jpg">Void Reaver (Sideways)</option>
+          <option value="https://i.imgur.com/B0rmxVX.jpg">Al'ar (Perspective)</option>
+          <option value="https://i.imgur.com/Oud0yNk.jpg">Al'ar (Above)</option>
+          <option value="https://i.imgur.com/cOUFKU8.jpg">High Astromancer Solarian (Above)</option>
+          <option value="https://i.imgur.com/Cu2OjXF.jpg">Kael'thas Sunstrider (Perspective)</option>
+          <option value="https://i.imgur.com/iLrUOGO.jpg">Kael'thas Sunstrider (Above)</option>
+        </select>
+
+        <select class="mh hidden bosspick" id="">
+          <option value="null" selected>Please pick a boss</option>
+          <option value="null"></option>
+          <option value="https://i.imgur.com/rnRt3h9.jpg">Rage Winterchill & Anatheron (Above)</option>
+          <option value="https://i.imgur.com/Ou0fVAE.jpg">Rage Winterchill & Anatheron (Perspective)</option>
+          <option value="https://i.imgur.com/08jaeML.jpg">Rage Winterchill & Anatheron (Sideways)</option>
+          <option value="https://i.imgur.com/Brr7ZKI.jpg">Kaz'rogal & Azgalor (Above)</option>
+          <option value="https://i.imgur.com/FywbGGG.jpg">Kaz'rogal & Azgalor (Huts)</option>
+          <option value="https://i.imgur.com/DgueC8x.jpg">Archimonde (Above)</option>
+          <option value="https://i.imgur.com/sohIE8J.jpg">Archimonde (Sideways)</option>
+        </select>
+
+        <select class="bt hidden bosspick" id="">
+          <option value="null" selected>Please pick a boss</option>
+          <option value="null"></option>
+          <option value="https://i.imgur.com/qppy83Q.jpg">High Warlord Naj'entus</option>
+          <option value="https://i.imgur.com/8LZrngQ.jpg">Supremus</option>
+          <option value="https://i.imgur.com/GZNFkNc.jpg">Shade of Akama</option>
+          <option value="https://i.imgur.com/dn82FRQ.jpg">Teron Gorefiend</option>
+          <option value="https://i.imgur.com/zmwwGRw.jpg">Gurtogg Bloodboil</option>
+          <option value="https://i.imgur.com/vBdSRtG.jpg">Reliquary of Souls</option>
+          <option value="https://i.imgur.com/dnYRudT.jpg">Mother Shahraz</option>
+          <option value="https://i.imgur.com/iGDi5BD.jpg">The Illidari Council</option>
+          <option value="https://i.imgur.com/oA31wXP.jpg">Illidan Stormrage</option>
+        </select>
+
+
+
+        <button id="takePrint">Save image</button>
+
+
+        <div id="putImg">
+
+        </div>
+  </body>
+</html>
