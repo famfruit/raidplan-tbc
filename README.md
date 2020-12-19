@@ -35,4 +35,6 @@ Pick what raid you want following what boss in that raid you want. Use the funct
 
 </br>
 ### Start Addon & Change Pictures
+
+
 ![](2020-12-19-22-39-20.gif)
