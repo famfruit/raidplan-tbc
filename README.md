@@ -8,14 +8,14 @@ This extensions needs to be manually installed using Chrome. It wont update auto
 </br>
 </br>
 **Navigate to "Code" and press "Download ZIP".**</br>
-<img src="https://cloud.githubusercontent.com/assets/590348/22867052/f8d570ba-f190-11e6-9e4c-aee3adc16154.jpg" width="51%">
+<img src="https://i.imgur.com/ruiASQj.jpg" width="51%">
 </br>
 </br>
 Extract the "raidplan-tbc-master" folder to your desktop and open up Google Chrome and find your "Extensions" tab - Or put "chrome://extensions/" into your Omnibar
 </br>
 </br>
 **Click on "uncompressed add-on/extension" and select the folder you just extracted.**</br>
-<img src="https://cloud.githubusercontent.com/assets/590348/22867052/f8d570ba-f190-11e6-9e4c-aee3adc16154.jpg" width="51%"></br>
+<img src="https://i.imgur.com/cAbgPOi.jpg" width="51%"></br>
 **Installation complete!**
 
 </br>
